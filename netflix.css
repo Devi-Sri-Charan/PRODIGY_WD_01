@@ -10,17 +10,21 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    position: relative;
 }
 
 .bg {
     height: 100vh;
     width: 100vw;
-    opacity: 0.75;
+    position: absolute;
+    opacity: 0.7;
     background-color: black;
 }
 
 nav {
+    /* width: 75vw; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -30,7 +34,24 @@ nav {
     z-index: 10;
 }
 
-.btns {
+img {
+    width: 12.11rem;
+}
+
+.lang {
+    padding: 1rem;
+    width: 7.65rem;
+    margin-right: 0.21rem;
+    border-radius: 1rem;
+    font-size: 1.21rem;
+    font-weight: 600;
+    background-color: transparent;
+    /* opacity: 0.5; */
+    color: white;
+    border-color: white;
+}
+
+/* .btns {
     display: flex;
 }
 
@@ -39,15 +60,15 @@ nav {
     border: 2px solid white;
     border-radius: 1rem;
     margin-right: 1rem;
-}
+} */
 
-.select {
+/* .select {
     background-color: black;
     color: white;
     border: 0px;
     width: 10rem;
     font-size: 1.2rem;
-}
+} */
 
 .btn-red {
     background-color: red;
@@ -56,6 +77,8 @@ nav {
     font-weight: bold;
     padding: 1rem;
     border-radius: 1rem;
+    border: 0;
+    border-color: white;
 }
 
 .content {
@@ -127,6 +150,21 @@ input {
     width: 100%;
 }
 
+.content h1 {
+    font-size: 3.5rem;
+    margin: 1rem;
+}
+
+.content h3 {
+    font-size: 2.2rem;
+    margin: 1rem;
+}
+
+.content p {
+    font-size: 1.75rem;
+    margin: 1rem;
+}
+
 @media (max-width:1000px) {
     .first {
         width: 84vw;
@@ -141,11 +179,37 @@ input {
         padding: 1rem;
         width: 80%;
     }
-    
-    .hide{
+
+    .hide {
         /* visibility: hidden;
          */
-         display: none;
+        display: none;
+    }
+
+    .content h1 {
+        font-size: 2.21rem;
+        margin: 1rem;
+    }
+    
+    .content h3 {
+        font-size: 1.21rem;
+        margin: 1rem;
+    }
+    
+    .content p {
+        font-size: 1.21rem;
+        margin: 1rem;
+    }
+
+    img{
+        opacity: 0.8;
+        /* color: red; */
+        width: 11rem;
+    }
+
+    .btn-red{
+        padding: 0.7rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -167,11 +231,12 @@ input {
     font-size: 1.77rem;
 }
 
-.footer{
+.footer {
     background-color: black;
     color: white;
     padding: 1rem;
 }
+
 .footer div {
     text-align: center;
     display: flex;
@@ -190,11 +255,11 @@ ul {
     text-decoration: underline;
 }
 
-li{
+li {
     margin-bottom: 0.21rem;
 }
 
-.footer button{
+.footer button {
     padding: 0.5rem 1rem;
     color: white;
     border: none;
