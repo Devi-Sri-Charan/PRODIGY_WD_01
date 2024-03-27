@@ -51,25 +51,6 @@ img {
     border-color: white;
 }
 
-/* .btns {
-    display: flex;
-}
-
-.lang {
-    padding: 1rem;
-    border: 2px solid white;
-    border-radius: 1rem;
-    margin-right: 1rem;
-} */
-
-/* .select {
-    background-color: black;
-    color: white;
-    border: 0px;
-    width: 10rem;
-    font-size: 1.2rem;
-} */
-
 .btn-red {
     background-color: red;
     color: white;
@@ -181,8 +162,6 @@ input {
     }
 
     .hide {
-        /* visibility: hidden;
-         */
         display: none;
     }
 
@@ -203,7 +182,6 @@ input {
 
     img{
         opacity: 0.8;
-        /* color: red; */
         width: 11rem;
     }
 
@@ -241,7 +219,6 @@ input {
     text-align: center;
     display: flex;
     justify-content: center;
-    /* padding: 1rem; */
     width: 100vw;
     flex-wrap: wrap;
 }
